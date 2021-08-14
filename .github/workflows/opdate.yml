@@ -70,7 +70,7 @@ jobs:
 
           git commit -m "github_actions" -a;
 
-          git push "https://firkerword:${{ secrets.MIMA }}@github.com/firkerword/JD_Script.git" main
+          git push "https://firkerword:${{ secrets.GITHUB_TOKEN }}@github.com/firkerword/JD_Script.git" main
 
           
 
